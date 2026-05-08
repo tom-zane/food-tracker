@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "MacroTrack",
+    "slug": "macro-track",
+    "version": "1.0.0",
+    "orientation": "portrait",
+
+    "icon": "./assets/icon.png",
+
+    "userInterfaceStyle": "automatic",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "android": {
+      "package": "com.aryn117.macrotrack",
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/transparent-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+
+      "edgeToEdgeEnabled": true,
+
+      "permissions": [],
+
+      "softwareKeyboardLayoutMode": "pan"
+    },
+
+    "ios": {
+      "bundleIdentifier": "com.aryn117.macrotrack",
+      "supportsTablet": true
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "plugins": [
+      "expo-secure-store"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "bb64ce34-5a54-4039-82e6-9ffa9d525234"
+      }
+    }
+  }
+}
